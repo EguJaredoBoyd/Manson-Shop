@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "menu header header header"
+    "menu main main main"
+    "menu main main main"
+    "menu footer footer footer";
+
+}
+header{
+    grid-area: header;
+    background-color: blue;
+    color: aliceblue;
+}
+header nav ul{
+    display: flex;
+}
+a{ 
+    color: white;
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+menu{
+    grid-area: menu;
+    background-color: greenyellow
+}
+main{
+    grid-area: main;
+    background-color: crimson;
+}
+footer{
+    grid-area: footer;
+    background-color:darkturquoise
+
+}
