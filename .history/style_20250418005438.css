@@ -146,10 +146,6 @@ section{
 section img{
     width: 100%;
     height: 300px;
-    transition: all ease-in-out;
-}
-section img:hover{
-    opacity: 0.7;
 }
 section p{
     margin-top: 20px;
@@ -160,9 +156,6 @@ footer{
     background-color:var(--all-color);
     margin-left: 150px;
 
-}
-.contact-h2{
-    margin-top: 20px;
 }
 footer div{
     display: flex;
@@ -209,50 +202,27 @@ footer form label{
 footer h2, div div img, p{
     margin-left: 150px;
 }
-#name, #number, #message{
-    padding-left: 10px;
-}
 
 .whatsapp, .location, .phone-line{
     flex-direction: column;
+    row-gap: 10px;
     color: var(--all-color);
-    align-items: center;
-    justify-content: center;
-    padding-right: 105px;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    align-items: flex-start;
+    left: 20px;
 }
-
 .whatsapp{
     background-color: #132A13;
     padding-left: 0;
     margin-left: 150px;
 }
-.whatsapp:hover{
-    background-color:#7b8141;
-}
-
 .location{
     background-color: var(--secondary-color);
-    
-}
-.location:hover{
-    background-color:#7b8141;
 }
 .phone-line{
     background-color: var(--background-color);
 }
-.phone-line:hover{
-    background-color:#7b8141;
-}
-.last{
-    margin-top: 20px;
-    text-align: center;
-}
-footer hr{
-    background-color: rgba(202, 222, 202, 0.5);
-    height: 5px;
-    margin-bottom: 20px;
-}
+form p{
+    margin: 50px;
 
+}
 

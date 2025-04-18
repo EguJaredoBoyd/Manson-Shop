@@ -146,11 +146,11 @@ section{
 section img{
     width: 100%;
     height: 300px;
-    transition: all ease-in-out;
 }
-section img:hover{
-    opacity: 0.7;
+.jeans img:hover{
+    background-color: whitesmoke;
 }
+
 section p{
     margin-top: 20px;
     margin-left: 0;
@@ -208,9 +208,6 @@ footer form label{
 }
 footer h2, div div img, p{
     margin-left: 150px;
-}
-#name, #number, #message{
-    padding-left: 10px;
 }
 
 .whatsapp, .location, .phone-line{

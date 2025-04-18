@@ -210,7 +210,7 @@ footer h2, div div img, p{
     margin-left: 150px;
 }
 #name, #number, #message{
-    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .whatsapp, .location, .phone-line{

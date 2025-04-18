@@ -2,7 +2,6 @@
     margin: 0;
     font-family: "Cinzel",
         "serif";
-        
 }
 :root{
     --primary-color:#132A13;
@@ -28,7 +27,7 @@ header{
     background-color: var(--all-color);
     color: black;
     padding-left: 100px;
-    margin-left: 150px;
+    margin-left: 50px;
 
 }
 .first{
@@ -46,9 +45,6 @@ header{
 .first, .second, .third, .fourth{
     padding-top: 10px;
     padding-bottom: 10px;
-}
-header h1{
-    color: #949f1c;
 }
 header nav ul{
     display: flex;
@@ -70,15 +66,13 @@ header nav ul li a:hover{
     box-shadow: 0 2px 4px rgba (0,0,0,0.1);
     padding-top: 10px;
     padding-bottom: 10px;
-    cursor: pointer;
 
 }
 .products{
     font-size: 30px;
 }
 header hr{
-    background-color: rgba(202, 222, 202, 0.5);
-    height: 5px;
+    color: black;
 }
 a{ 
     color: black;
@@ -103,11 +97,6 @@ menu img{
     height: 150px;
     border-radius: 50%;
     padding-bottom: 10px;
-    margin: 50px;
-}
-menu h2{
-    background: linear-gradient(to right, white, rgb(17, 32, 17));
-    margin-bottom: 50px;
 }
 menu ul{
     display: flex;
@@ -115,27 +104,18 @@ menu ul{
     gap: 20px;
     padding-top: 10px;
     padding-left: 0;
-    margin-bottom: 20px;
 
 }
-menu ul li:hover{
-    background-color: #90A955;
-    cursor: pointer;
-
-}
-menu a{
-    color: white;
-}
-   
 main{
     grid-area: main;
     background-color: crimson;
     display: grid;
     grid-template-areas: 
-    "jeans shirts polos"
-    "shorts trousers slipppers";
-    gap: 20px;
-    margin-left: 250px;
+    "jeans shirts"
+    "polos shorts"
+    "trousers slippers";
+    gap: 10px;
+    margin-left: 150px;
     background-color: var(--all-color);
 }
 section{
@@ -146,23 +126,13 @@ section{
 section img{
     width: 100%;
     height: 300px;
-    transition: all ease-in-out;
-}
-section img:hover{
-    opacity: 0.7;
-}
-section p{
-    margin-top: 20px;
-    margin-left: 0;
+    border-radius: 10px;
 }
 footer{
     grid-area: footer;
     background-color:var(--all-color);
     margin-left: 150px;
 
-}
-.contact-h2{
-    margin-top: 20px;
 }
 footer div{
     display: flex;
@@ -175,7 +145,6 @@ footer div img{
 footer form{
     display: flex;
     flex-direction: column;
-    
 } 
 footer form input, textarea{
     max-width: 80%;
@@ -185,7 +154,7 @@ footer form button{
 }
 footer input,textarea, button{
     height: 50px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 form button img{
     width: 20px;
@@ -193,66 +162,11 @@ form button img{
 }
 footer button{
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color:#31572C;
-    color: white;
-
-}
-footer button img{
-    align-self: center;
-    padding: 5px;
 }
 footer form label{
-    margin-left: 150px;
+    margin-left: 100px;
 }
 footer h2, div div img, p{
-    margin-left: 150px;
+    margin-left: 100px;
 }
-#name, #number, #message{
-    padding-left: 10px;
-}
-
-.whatsapp, .location, .phone-line{
-    flex-direction: column;
-    color: var(--all-color);
-    align-items: center;
-    justify-content: center;
-    padding-right: 105px;
-    margin-bottom: 50px;
-    margin-top: 20px;
-}
-
-.whatsapp{
-    background-color: #132A13;
-    padding-left: 0;
-    margin-left: 150px;
-}
-.whatsapp:hover{
-    background-color:#7b8141;
-}
-
-.location{
-    background-color: var(--secondary-color);
-    
-}
-.location:hover{
-    background-color:#7b8141;
-}
-.phone-line{
-    background-color: var(--background-color);
-}
-.phone-line:hover{
-    background-color:#7b8141;
-}
-.last{
-    margin-top: 20px;
-    text-align: center;
-}
-footer hr{
-    background-color: rgba(202, 222, 202, 0.5);
-    height: 5px;
-    margin-bottom: 20px;
-}
-
 
