@@ -43,18 +43,9 @@ header{
 .fourth{
     background-color: var(--other-color);
 }
-.first, .second, .third, .fourth, .fifth, .sixth, .seventh{
+.first, .second, .third, .fourth{
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.fifth{
-    background-color: #023102;
-}
-.sixth{
-    background-color: #949f1c;
-}
-.seventh{
-    background-color:#023102;
 }
 header h1{
     color: #949f1c;
@@ -82,8 +73,13 @@ header nav ul li a:hover{
     cursor: pointer;
 
 }
-.fifth{
-    margin-left: auto;
+header nav .nav2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 0;
+    padding-top: 50px;
+    color: black;
 }
 .products{
     font-size: 30px;
@@ -102,7 +98,6 @@ ul li{
     color: white;
 
 }
-
 menu{
     grid-area: menu;
     background-color: var(--primary-color);
@@ -146,8 +141,7 @@ main{
     display: grid;
     grid-template-areas: 
     "jeans shirts polos"
-    "shorts trousers slipppers"
-    "sports bags matching-ensemble";
+    "shorts trousers slipppers";
     gap: 20px;
     margin-left: 250px;
     background-color: var(--all-color);

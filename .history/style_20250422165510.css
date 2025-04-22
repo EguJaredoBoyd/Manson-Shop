@@ -82,7 +82,7 @@ header nav ul li a:hover{
     cursor: pointer;
 
 }
-.fifth{
+.fifth, .sixth, .seventh{
     margin-left: auto;
 }
 .products{
@@ -146,8 +146,7 @@ main{
     display: grid;
     grid-template-areas: 
     "jeans shirts polos"
-    "shorts trousers slipppers"
-    "sports bags matching-ensemble";
+    "shorts trousers slipppers";
     gap: 20px;
     margin-left: 250px;
     background-color: var(--all-color);
