@@ -99,10 +99,8 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     background-color: #132A13;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 0.6rem;
     cursor: pointer;
-    position: relative;
 
 }
 .tenth{

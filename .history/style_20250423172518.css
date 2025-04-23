@@ -50,10 +50,10 @@ header{
 .fourth{
     background-color: var(--other-color);
 }
-.first, .second, .third, .fourth, .fifth, .sixth, .seventh,
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh
 .eighth, .ninth, .tenth, .eleventh, .twelfth{
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .fifth{
     background-color: #7b8141;
@@ -99,10 +99,11 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     background-color: #132A13;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    border-color: #132A13;
+    box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
     cursor: pointer;
-    position: relative;
 
 }
 .tenth{

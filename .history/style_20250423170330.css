@@ -2,7 +2,7 @@
     margin: 0;
     font-family: "Cinzel", "serif";
     line-height: 2rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
 
         
 }
@@ -28,7 +28,6 @@ body{
     "menu main main main"
     "menu footer footer footer";
 
-
 }
 header{
     grid-area: header;
@@ -50,33 +49,17 @@ header{
 .fourth{
     background-color: var(--other-color);
 }
-.first, .second, .third, .fourth, .fifth, .sixth, .seventh,
-.eighth, .ninth, .tenth, .eleventh, .twelfth{
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .fifth{
-    background-color: #7b8141;
-}
-.sixth{
-    background-color: #4F772D;
-}
-.seventh{
-    background-color: #949f1c;
-}
-.eighth{
-    background-color: #90A955;
-}
-.ninth{
-    background-color: #ECF39E;
-}
-.tenth{
     background-color: #023102;
 }
-.eleventh{
+.sixth{
     background-color: #949f1c;
 }
-.twelfth{
+.seventh{
     background-color:#023102;
 }
 header h1{
@@ -99,13 +82,14 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     background-color: #132A13;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    border-color: #132A13;
+    box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
     cursor: pointer;
-    position: relative;
 
 }
-.tenth{
+.fifth{
     margin-left: auto;
 }
 .products{
