@@ -1,0 +1,25 @@
+@media screen and (max-width: 767px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        "menu menu menu"
+        "header header header"
+        "main main main "
+        "footer footer footer";
+        background-color: red;
+        color: crimson;
+    }
+    menu{
+        grid-area: menu;
+    }
+    header{
+        grid-area: header;
+    }
+    main{
+        grid-area: main;
+    }
+    footer{
+        grid-area: footer;
+    }
+
+}

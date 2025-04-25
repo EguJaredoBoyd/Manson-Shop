@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    font-family: "Cinzel", "serif";
+    line-height: 1.5rem;
+    font-size: 1rem;
+
+        
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+:root{
+    --primary-color:#132A13;
+    --secondary-color:#31572C;
+    --background-color:#4F772D;
+    --section-color:#90A955;
+    --other-color:#ECF39E; 
+    --all-color: rgb(255, 255, 255);
+    
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "menu header header header"
+    "menu main main main"
+    "menu main main main"
+    "menu footer footer footer";
+
+
+}
+header{
+    grid-area: header;
+    background-color: var(--all-color);
+    color: black;
+    padding-left: 100px;
+    margin-left: 150px;
+
+}
+.first{
+    background-color: var(--secondary-color);
+}
+.second{
+    background-color: var(--background-color);
+}
+.third{
+    background-color: var(--section-color);
+}
+.fourth{
+    background-color: var(--other-color);
+}
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh,
+.eighth, .ninth, .tenth, .eleventh, .twelfth, .twelfth2{
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+.fifth{
+    background-color: #7b8141;
+}
+.sixth{
+    background-color: #4F772D;
+}
+.seventh{
+    background-color: #949f1c;
+}
+.eighth{
+    background-color: #90A955;
+}
+.ninth{
+    background-color: #ECF39E;
+}
+.tenth{
+    background-color: #023102;
+}
+.eleventh{
+    background-color: #949f1c;
+}
+.twelfth{
+    background-color:#023102;
+}
+.twelfth2{
+    background-color: #023102;
+    margin-left: auto;
+}
+header h1{
+    color: #949f1c;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 0;
+    padding-top: 50px;
+    color: black;
+}
+header nav ul li a{
+    color: white;
+    font-size: 1rem;
+    padding: 0.6rem;
+    transition: all 0.5s ease-in-out;
+    font-size: 1rem;
+}
+header nav ul li a:hover{
+    background-color: #132A13;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+
+}
+.tenth{
+    margin-left: auto;
+}
+.products{
+    font-size: 1rem;
+}
+header hr{
+    background-color: rgba(202, 222, 202, 0.5);
+    height: 5px;
+}
+a{ 
+    color: black;
+    text-decoration: none;
+    
+}
+ul li{
+    list-style-type: none;
+    color: white;
+
+}
+
+menu{
+    grid-area: menu;
+    background-color: var(--primary-color);
+    padding-left: 0;
+    position: fixed;
+    height: 100%;
+    margin-right: 10px;
+}
+menu img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-bottom: 10px;
+    margin: 50px;
+}
+menu h2{
+    background: linear-gradient(to right, white, rgb(17, 32, 17));
+    margin-bottom: 50px;
+}
+menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 0;
+    margin-bottom: 20px;
+
+}
+menu ul li a{
+    display: block;
+}
+.socials{
+    display: flex;
+    gap: 2rem;
+}
+.socials :hover{
+    background-color: #90A955;
+    cursor: pointer;
+}
+menu ul li:hover{
+    background-color: #90A955;
+    cursor: pointer;
+
+}
+menu a{
+    color: white;
+}
+   
+main{
+    grid-area: main;
+    background-color: crimson;
+    display: grid;
+    grid-template-areas: 
+    "jeans shirts polos"
+    "shorts trousers slipppers"
+    "sports bags matching-ensemble";
+    gap: 1.25rem;
+    margin-left: 250px;
+    background-color: var(--all-color);
+}
+section{
+    background-color: var(--section-color);
+    border: black;
+    margin-top: 20px;
+}
+section img{
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out;
+}
+section img:hover{
+    opacity: 0.7;
+}
+section p{
+    margin-left: 0;
+    height: 1000px;
+    overflow-y: auto;
+}
+footer{
+    grid-area: footer;
+    background-color:var(--all-color);
+    margin-left: 150px;
+
+}
+footer div{
+    display: flex;
+}
+footer div img{
+    width: 50px;
+    height: 50px;
+
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    
+} 
+footer form input, textarea{
+    max-width: 80%;
+}
+footer form button{
+    max-width: 10%;
+}
+footer input,textarea, button{
+    height: 50px;
+    margin-left: 150px;
+}
+form button img{
+    width: 1rem;
+    height: 1.25rem;
+}
+footer button{
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#31572C;
+    color: white;
+
+}
+footer button img{
+    align-self: center;
+    padding: 5px;
+}
+footer form label{
+    margin-left: 150px;
+}
+footer h2, div div img, p{
+    margin-left: 150px;
+}
+.story, .about, .contact-h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+
+}
+#name, #number, #message{
+    padding-left: 10px;
+}
+
+.whatsapp, .location, .phone-line{
+    flex-direction: column;
+    color: var(--all-color);
+    align-items: center;
+    justify-content: center;
+    padding-right: 105px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.whatsapp{
+    background-color: #132A13;
+    padding-left: 0;
+    margin-left: 150px;
+}
+.whatsapp:hover{
+    background-color:#7b8141;
+}
+
+.location{
+    background-color: var(--secondary-color);
+    
+}
+.location:hover{
+    background-color:#7b8141;
+}
+.phone-line{
+    background-color: var(--background-color);
+}
+.phone-line:hover{
+    background-color:#7b8141;
+}
+.last{
+    margin-top: 20px;
+    text-align: center;
+}
+footer hr{
+    background-color: rgba(202, 222, 202, 0.5);
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+

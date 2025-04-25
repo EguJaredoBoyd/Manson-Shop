@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        "menu menu menu"
+        "header header header"
+        "main main main "
+        "footer footer footer";
+    }
+}

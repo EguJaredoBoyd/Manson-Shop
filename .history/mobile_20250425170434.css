@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px){
+    menu{
+        position: relative;
+    }
+    body{
+        grid-template-areas: 
+        "menu"
+        "header"
+        "main"
+        "footer";
+
+    }
+    header{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .h-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main{
+        grid-template-areas: 
+        "jeans"
+        "shirts"
+        "polos"
+        "shorts"
+        "trousers"
+        "slippers"
+        "sports"
+        "bags"
+        "matching-ensemble";
+        margin-left: 0;
+    }
+    section{
+        width: auto;
+    }
+    section img{
+        width:fit-content;
+    }
+    footer{
+        margin-left: 0;
+    }
+    footer, input, textarea, button{
+        margin-left: 0;
+    }
+    footer h2, div div img,p{
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

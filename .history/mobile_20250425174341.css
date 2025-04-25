@@ -1,0 +1,63 @@
+@media screen and (max-width: 767px){
+    menu{
+        position: relative;
+    }
+    body{
+        grid-template-areas: 
+        "menu"
+        "header"
+        "main"
+        "footer";
+
+    }
+    header{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main{
+        grid-template-areas: 
+        "jeans"
+        "shirts"
+        "polos"
+        "shorts"
+        "trousers"
+        "slippers"
+        "sports"
+        "bags"
+        "matching-ensemble";
+        margin-left: 0;
+    }
+    section{
+        width: 100%;
+    }
+    section img{
+    }
+    footer{
+        margin-left: 0;
+    }
+    footer, input, textarea, button{
+        margin-left: 0;
+    }
+    footer h2, div div img,p{
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer form label{
+        margin-left: 0;
+    }
+    #name, #number, #message{
+        margin-left: 0;
+    }
+    .whatsapp{
+        margin-left: 0;
+    }
+    .last{
+        text-align: center;
+    }
+}

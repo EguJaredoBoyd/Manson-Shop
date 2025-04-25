@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px){
+    menu{
+        position: relative;
+    }
+    body{
+        grid-template-areas: 
+        "menu"
+        "header"
+        "main"
+        "footer";
+
+    }
+    header{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    main{
+        grid-template-areas: 
+        "jeans"
+        "shirts"
+        "polos"
+        "shorts"
+        "trousers"
+        "slippers"
+        "sports"
+        "bags"
+        "matching-ensemble";
+    }
+
+}
