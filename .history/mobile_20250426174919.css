@@ -130,11 +130,6 @@
         gap: 10px;
         line-height: 20px;
         flex-direction: row;
-        padding-bottom: 0;
-    }
-    #button img{
-        width: 20px;
-        height: 20px;
     }
     .whatsapp{
         margin-left: 0;

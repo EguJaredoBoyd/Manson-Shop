@@ -132,9 +132,8 @@
         flex-direction: row;
         padding-bottom: 0;
     }
-    #button img{
-        width: 20px;
-        height: 20px;
+    button img{
+        vertical-align: top;
     }
     .whatsapp{
         margin-left: 0;

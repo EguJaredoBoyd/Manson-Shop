@@ -9,9 +9,6 @@
         position: relative;
         margin-right: 0;
     }
-    menu h2, ul, a{
-        padding: 10px;
-    }
     body{
         grid-template-areas: 
         "header"
@@ -78,22 +75,14 @@
     section img{
         width: 100%;
     }
-    section h3, p{
+    section p{
         padding: 10px;
     }
     footer{
         margin-left: 0;
     }
-    .story, .about, .contact-h2{
-        padding: 10px;
-    }
-    .contact2{
-        flex-direction: column;
-    }
     .whatsapp, .location, .phone-line{
         padding: 10px;
-        margin-top: 0;
-        margin-bottom: 0;
 
     }
     .whatsapp img, .location img, .phone-line img{
@@ -119,22 +108,16 @@
     }
     footer form button{
         display: flex;
-        max-width: 50%;
+        flex-direction: column;
+        max-width: 30%;
         
     }
     #name, #number, #message, #button{
         margin-left: 35px;
     }
     #button{
-        padding: 10px;
-        gap: 10px;
-        line-height: 20px;
-        flex-direction: row;
-        padding-bottom: 0;
-    }
-    #button img{
-        width: 20px;
-        height: 20px;
+        padding-bottom: 20px;
+        line-height: 12px;
     }
     .whatsapp{
         margin-left: 0;

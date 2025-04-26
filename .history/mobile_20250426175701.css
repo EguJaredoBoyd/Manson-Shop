@@ -132,9 +132,9 @@
         flex-direction: row;
         padding-bottom: 0;
     }
-    #button img{
-        width: 20px;
+    form button img{
         height: 20px;
+        align-content: center;
     }
     .whatsapp{
         margin-left: 0;

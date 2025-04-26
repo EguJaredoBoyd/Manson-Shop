@@ -119,7 +119,8 @@
     }
     footer form button{
         display: flex;
-        max-width: 50%;
+        flex-direction: column;
+        max-width: 100%;
         
     }
     #name, #number, #message, #button{
@@ -130,11 +131,6 @@
         gap: 10px;
         line-height: 20px;
         flex-direction: row;
-        padding-bottom: 0;
-    }
-    #button img{
-        width: 20px;
-        height: 20px;
     }
     .whatsapp{
         margin-left: 0;
