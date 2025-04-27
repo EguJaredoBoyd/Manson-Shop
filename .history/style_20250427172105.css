@@ -43,8 +43,7 @@ header{
     display: none;
 }
 #nav-links{
-    display: flex;
-    max-width: 92%;
+    display: block;
 }
 .h-container {
     display: flex;
@@ -55,7 +54,6 @@ header{
     gap: 2rem;
     justify-content: flex-end;
     margin-left: auto;
-    padding-top: 0;
 }
 .nav1 a{
     color: #949f1c;
@@ -170,7 +168,8 @@ menu img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 50px;
+    justify-content: center;
+    align-content: center;
 }
 menu h2{
     background: linear-gradient(to right, white, rgb(17, 32, 17));
@@ -217,9 +216,9 @@ main{
     "jeans shirts polos"
     "shorts trousers slipppers"
     "sports bags matching-ensemble";
+    gap: 1.25rem;
     margin-left: 250px;
     background-color: var(--all-color);
-    gap: 20px;
 
 }
 section{
@@ -303,7 +302,6 @@ footer h2, div div img, p{
 }
 #button{
     font-size: small;
-    align-items: center;
 }
 
 .whatsapp , .location , .phone-line  {

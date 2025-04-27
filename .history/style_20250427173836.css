@@ -43,8 +43,8 @@ header{
     display: none;
 }
 #nav-links{
-    display: flex;
-    max-width: 92%;
+    display: contents;
+    padding-top: 0;
 }
 .h-container {
     display: flex;
@@ -55,7 +55,6 @@ header{
     gap: 2rem;
     justify-content: flex-end;
     margin-left: auto;
-    padding-top: 0;
 }
 .nav1 a{
     color: #949f1c;
@@ -219,7 +218,6 @@ main{
     "sports bags matching-ensemble";
     margin-left: 250px;
     background-color: var(--all-color);
-    gap: 20px;
 
 }
 section{
@@ -303,7 +301,6 @@ footer h2, div div img, p{
 }
 #button{
     font-size: small;
-    align-items: center;
 }
 
 .whatsapp , .location , .phone-line  {

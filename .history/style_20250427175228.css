@@ -43,8 +43,10 @@ header{
     display: none;
 }
 #nav-links{
+    display: contents;
+    max-width: 90%;
     display: flex;
-    max-width: 92%;
+    flex-direction: row;
 }
 .h-container {
     display: flex;
@@ -165,6 +167,7 @@ menu{
     position: fixed;
     height: 100%;
     margin-right: 10px;
+    margin-top: 10px;
 }
 menu img{
     width: 150px;
@@ -219,7 +222,6 @@ main{
     "sports bags matching-ensemble";
     margin-left: 250px;
     background-color: var(--all-color);
-    gap: 20px;
 
 }
 section{

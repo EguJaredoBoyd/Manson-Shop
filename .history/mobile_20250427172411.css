@@ -8,10 +8,12 @@
     menu{
         position: relative;
         margin-right: 0;
-        margin-top: 10px
     }
     menu h2, ul, a{
         padding: 10px;
+    }
+    menu img{
+        display: flex;
     }
     body{
         grid-template-areas: 
