@@ -35,7 +35,7 @@ header{
     grid-area: header;
     background-color: var(--all-color);
     color: black;
-    padding-left: 7.7rem;
+    padding-left: 5rem;
     margin-left: 150px;
 
 }

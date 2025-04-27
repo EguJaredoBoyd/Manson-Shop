@@ -35,8 +35,8 @@ header{
     grid-area: header;
     background-color: var(--all-color);
     color: black;
-    padding-left: 7.7rem;
-    margin-left: 150px;
+    padding-left: 6.25rem;
+    margin-left: 9.375rem;
 
 }
 #hamburger-menu{

@@ -3,7 +3,7 @@
         font-size: small;
     }
     html{
-        margin: 1.4rem;
+        margin: 1.5rem;
     }
     menu{
         position: relative;
@@ -86,7 +86,7 @@
         margin-left: 0;
     }
     .story, .about, .contact-h2{
-        padding: 0.6rem;
+        padding: 0.63rem;
     }
     .contact2{
         flex-direction: column;
