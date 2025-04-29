@@ -40,28 +40,30 @@
         display: contents;
         background: none;
         border: none;
-        top: 0;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 1001;
     }
     #hamburger-menu i {
         color: var(#949f1c);
 
     }
-    #hamburger-cancel{
-        display: block;
-
-    }
     #nav-links{
-        display: block;
+        display: none;
+        flex-direction: column;
         position: absolute;
-        background-color: aliceblue;
-        margin-top: 0;
+        background-color:var(--primary-color);
+        top: 100%;
         width: 100%;
+        left: 0;
         z-index: 1000;
         
         
     }
     #nav-links.show{
-        display:none;
+        display: flex;
     }
     #nav-links ul li a{
         margin: 0;

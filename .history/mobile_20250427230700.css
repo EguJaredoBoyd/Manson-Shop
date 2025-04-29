@@ -46,13 +46,9 @@
         color: var(#949f1c);
 
     }
-    #hamburger-cancel{
-        display: block;
-
-    }
     #nav-links{
-        display: block;
-        position: absolute;
+        display: none;
+        position: relative;
         background-color: aliceblue;
         margin-top: 0;
         width: 100%;
@@ -61,10 +57,7 @@
         
     }
     #nav-links.show{
-        display:none;
-    }
-    #nav-links ul li a{
-        margin: 0;
+        display:block;
     }
     menu img{
         margin-left: 30%;

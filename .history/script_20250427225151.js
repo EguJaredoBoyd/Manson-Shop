@@ -7,7 +7,7 @@ document.getElementById("hamburger-menu").addEventListener(
 
 document.getElementById("hamburger-cancel").addEventListener(
     "click", () => {
-        const navLinks = document.getElementById("nav-links");
-        navLinks.classList.toggle("show");
+        const cancel = document.getElementById("hamburger-cancel");
+        cancel.classList.toggle("cancel-show");
     }
 )

@@ -51,7 +51,7 @@
 
     }
     #nav-links{
-        display: block;
+        display: none;
         position: absolute;
         background-color: aliceblue;
         margin-top: 0;
