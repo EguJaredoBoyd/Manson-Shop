@@ -1,207 +1,173 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    * {
+@media screen and (max-width: 767px){
+    *{
         font-size: small;
     }
-
-    html {
+    html{
         margin: 20px;
     }
-
-    menu {
+    menu{
         position: relative;
         margin-right: 0;
         margin-top: 10px
     }
-
-    menu h2,
-    ul,
-    a {
+    menu h2, ul, a{
         padding: 10px;
     }
-
-    .socials:hover {
+    .socials:hover{
         padding: 10px;
         display: block;
     }
-
-    body {
-        grid-template-areas:
-            "header"
-            "menu"
-            "main"
-            "footer";
+    body{
+        grid-template-areas: 
+        "header"
+        "menu"
+        "main"
+        "footer";
 
     }
-
-    header {
+    header{
         margin-left: 0;
         padding-left: 0;
     }
-
-    header nav ul {
+    header nav ul{
         display: flex;
         flex-direction: column;
         gap: 11px;
         height: auto;
 
     }
-
-    #hamburger-menu {
+    .h-container {
+        display: flex;
+        column-gap: 0;
+    }
+    
+    .nav1 {
+        display: flex;
+        justify-items: flex-end;
+        padding-top: 0;
+     }
+     .nav1 li a{
+        font-size: smaller;
+     }
+    #hamburger-menu{
         display: contents;
         background: none;
         border: none;
         top: 0;
     }
-
     #hamburger-menu i {
         color: var(#949f1c);
 
     }
-
-    #hamburger-cancel {
+    #hamburger-cancel{
         display: block;
 
     }
-
-    #nav-links {
+    #nav-links{
         display: block;
         position: absolute;
         background-color: aliceblue;
         margin-top: 0;
         width: 100%;
         z-index: 1000;
-
-
+        
+        
     }
-
-    #nav-links.show {
-        display: none;
+    #nav-links.show{
+        display:none;
         transition: max-height 0.5s ease-in-out;
     }
-
-    #nav-links ul li a {
+    #nav-links ul li a{
         margin: 0;
     }
-
-    menu img {
+    menu img{
         margin: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        
     }
-
-    main {
-        grid-template-areas:
-            "jeans shirts polos"
-            "shorts trousers slippers"
-            "sports bags matching-ensemble";
+    
+    main{
+        grid-template-areas: 
+        "jeans"
+        "shirts"
+        "polos"
+        "shorts"
+        "trousers"
+        "slippers"
+        "sports"
+        "bags"
+        "matching-ensemble";
         margin-left: 0;
     }
-
-    section {
+    section{
         width: 100%;
         height: 400px;
     }
-
-    section img {
+    section img{
         width: 100%;
     }
-
-    section h3,
-    p {
+    section h3, p{
         padding: 10px;
     }
-
-    footer {
+    footer{
         margin-left: 0;
     }
-
-    .story,
-    .about,
-    .contact-h2 {
+    .story, .about, .contact-h2{
         padding: 10px;
     }
-
-    .contact2 {
+    .contact2{
         flex-direction: column;
     }
-
-    .whatsapp,
-    .location,
-    .phone-line {
+    .whatsapp, .location, .phone-line{
         padding: 10px;
         margin-top: 0;
         margin-bottom: 0;
 
     }
-
-    .whatsapp img,
-    .location img,
-    .phone-line img {
+    .whatsapp img, .location img, .phone-line img{
         justify-self: center;
     }
-
-    .contact2 {
+    .contact2{
         justify-content: center;
     }
-
-    footer,
-    input,
-    textarea,
-    button {
+    footer, input, textarea, button{
         margin-left: 0;
     }
-
-    footer h2,
-    div div img,
-    p {
+    footer h2, div div img,p{
         margin-left: 0;
         display: flex;
         flex-wrap: wrap;
     }
-
-    footer div img {
+    footer div img{
         height: 20px;
         width: 20px;
     }
-
-    footer form label {
+    footer form label{
         margin-left: 35px;
     }
-
-    footer form button {
+    footer form button{
         display: flex;
         max-width: 50%;
-
+        
     }
-    footer hr{
-        margin-top: 3rem;
-    }
-
-    #name,
-    #number,
-    #message,
-    #button {
+    
+    #name, #number, #message, #button{
         margin-left: 35px;
     }
-
-    #button {
+    #button{
         padding: 10px;
         gap: 10px;
         flex-direction: row;
         padding-bottom: 0;
     }
-
-    #button img {
+    #button img{
         width: 20px;
         height: 20px;
     }
-
-    .whatsapp {
+    .whatsapp{
         margin-left: 0;
     }
-
-    .last {
+    .last{
         justify-self: center;
     }
 

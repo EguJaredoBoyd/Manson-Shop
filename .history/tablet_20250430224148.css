@@ -84,9 +84,8 @@
     }
 
     menu img {
+        display:block;
         margin: auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
         
     }
 
@@ -173,9 +172,6 @@
         display: flex;
         max-width: 50%;
 
-    }
-    footer hr{
-        margin-top: 3rem;
     }
 
     #name,

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1024px){
     @import url(./reset.css);
     
         * {
@@ -328,7 +328,7 @@
     
         }
         .contact2{
-            margin-right: 5rem;
+            margin-left: 2rem;
         }
     
         footer form {
