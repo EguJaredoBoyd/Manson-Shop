@@ -73,15 +73,9 @@
     
     main{
         grid-template-areas: 
-        "jeans"
-        "shirts"
-        "polos"
-        "shorts"
-        "trousers"
-        "slippers"
-        "sports"
-        "bags"
-        "matching-ensemble";
+        "jeans shirts polos"
+        "shorts trousers slippers"
+        "sports bags matching-ensemble";
         margin-left: 0;
     }
     section{

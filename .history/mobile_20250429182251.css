@@ -57,12 +57,12 @@
         margin-top: 0;
         width: 100%;
         z-index: 1000;
+        transition: height 0.5s ease-in-out;
         
         
     }
     #nav-links.show{
         display:none;
-        transition: max-height 0.5s ease-in-out;
     }
     #nav-links ul li a{
         margin: 0;

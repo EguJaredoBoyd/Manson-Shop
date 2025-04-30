@@ -57,6 +57,7 @@
         margin-top: 0;
         width: 100%;
         z-index: 1000;
+        transition: max-height 0.9s ease-in-out;
         
         
     }
