@@ -46,9 +46,7 @@
     }
     
     nav ul li a:hover{
-        padding: 0;
         display: block;
-
     }
     .nav1 {
         display: flex;

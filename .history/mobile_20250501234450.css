@@ -40,15 +40,9 @@
         display: flex;
         column-gap: 0;
     }
-
-    nav ul li a {
-        display: block;
-    }
     
     nav ul li a:hover{
-        padding: 0;
         display: block;
-
     }
     .nav1 {
         display: flex;
